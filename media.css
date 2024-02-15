@@ -1,0 +1,449 @@
+/* ширина для телефонов: 320px - 768px */
+
+/* ширина для планшетов: 768px - 992px */
+
+/* больше 992px ширина для компьютеров */
+
+@media (max-width: 760px) {
+    .header .menu {
+        margin: 10px;
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .menu a {
+        font-size: 10px;
+        margin-right: 3px;
+        margin-left: 0.5px;
+        display: block;
+    }
+
+    .header .mini-sibtitle {
+        font-size: 12px;
+    }
+
+    .header .title {
+        width: 320px;
+    }
+
+    .header .title h1 {
+        font-size: 19px;
+    }
+
+    .middle_1 {
+        margin-top: 55px;
+    }
+
+    .middle_1 .info_1 {
+        width: 320px;
+        height: 400px;
+    }
+
+    .middle_1 .items {
+        flex-direction: column;
+    }
+
+    .middle_1 .info_1 h2 {
+        font-size: 20px;
+        width: 320px;
+        line-height: 25px;
+    }
+
+    .middle_1 .info_1 .text-grey p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .middle_1 .info_1 .text-grey {
+        margin-top: 35px;
+        width: 280px;
+    }
+
+    .middle_1 .info_1 .items {
+        margin-top: 35px;
+    }
+
+    .middle_1 .info_1 .items .item_1 {
+        width: 320pxpx;
+    }
+
+    .middle_1 .info_1 .items .item_2 {
+        width: 320px;
+    }
+
+    .middle_1 .info_1 .items .item_3 {
+        width: 320px;
+    }
+
+    .middle_1 .info_1 .items .block {
+        width: 300px;
+    }
+
+    .middle_1 .info_1 .items .block h3 {
+        font-size: 15px;
+        line-height: 16px;
+        margin-left: 95px;
+    }
+
+    .middle_1 .info_1 .items .block p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 95px;
+    }
+
+    .middle_1 .info_1 .items .block .main-elipse {
+        width: 80px;
+        height: 80px;
+    }
+
+    .middle_1 .info_1 .items .block .main-elipse .elipse {
+        width: 70px;
+        height: 70px;
+    }
+
+    .middle_1 .info_1 .items .block .elipse .image {
+        width: 35px;
+        height: 35px;
+    }
+
+    .middle_1 .link {
+        margin-top: 300px;
+        
+    }
+
+    
+}
+
+@media (max-width: 953px) {
+    .about-us {
+        width: 100%;
+        height: 950px;
+        margin-right: auto;
+        margin-left: auto;
+        /* background-color: red; */
+    }
+
+    .about-us .text-img-about-us {
+        flex-direction: column;
+    }
+
+    .about-us .text-img-about-us .text {
+        margin: 0;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-us .text-img-about-us .text .main-text h2 {
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .about-us .text-img-about-us .text .subtitle-text p {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .about-us .text-img-about-us .text a {
+        font-size: 10px;
+        margin-left: 30%;
+    }
+
+    .about-us .text-img-about-us .image {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-us .text-img-about-us .image img {
+        margin: 0;
+        width: 320px;
+        border-radius: 15px;
+    }
+
+    .about-us .line-about-us {
+        width: 320px;
+    }
+
+    .about-us .about-us-numbers .container {
+        flex-direction: column;
+    }
+
+    .about-us .about-us-numbers .container .number-mini {
+        margin-top: 40px;
+    }
+
+    .about-us .about-us-numbers .container .number-mini .image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .about-us .line-about-us {
+        margin-top: 45px;
+    }
+
+    .about-us .about-us-numbers .container {
+        width: 320px;
+    }
+
+    .about-us .about-us-numbers .container .num1 {
+        position: absolute;
+        margin-left: 60px;
+    }
+
+    .about-us .about-us-numbers .container .num2 {
+        position: absolute;
+        margin-left: 190px;
+    }
+
+    .about-us .about-us-numbers .container .num3 {
+        position: absolute;
+        margin-left: 60px;
+        margin-bottom: 130px;
+    }
+
+    .about-us .about-us-numbers .container .num4 {
+        position: absolute;
+        margin-left: 190px;
+        margin-bottom: 130px;
+    }
+
+    .about-us .about-us-numbers .container .num5 {
+        position: absolute;
+        margin-left: 125px;
+        margin-top: 180px;
+    }
+
+    .about-us .about-us-numbers .container .number-mini .number {
+        font-size: 20px;
+    }
+
+    .about-us .about-us-numbers .container .number-mini .text {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 30px;
+    }
+} 
+
+@media (max-width: 1110px) {
+    .services {
+        height: 2050px;
+        background: linear-gradient(to bottom, #504DC2 25%, transparent 0%);
+    }
+
+    .services .block {
+        width: 100%;
+    }
+
+    .services .block .textes {
+        height: 180px;
+        flex-direction: column;
+    }
+
+    .services .block .textes .box-1 {
+        width: 100%;
+    }
+
+    .services .block .textes .box-1 h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services .block .textes .box-2 {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services .block .images {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services .block .images .boxes {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .services .block .images .line {
+        display: none;
+    }
+
+    /* making OUR PROJECTS */
+
+    .our-projects {
+        height: 1450px;
+        /* background-color: coral;  */
+        flex-direction: column !important;
+        margin-top: 0;
+    }
+
+    .our-projects .main-text {
+        margin: 0;
+        width: 320px;
+    }
+
+    .our-projects .main-text h2 {
+        margin: 0;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .our-projects .middle-text {
+        margin: 0;
+        width: 270px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    .our-projects .middle-text p {
+        font-size: 10px;
+    }
+
+    .our-projects .images {
+        margin: 0;
+        height: 1150px;
+        width: 320px;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .our-projects .images img {
+        width: 270px;
+        height: 270px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .our-projects .main-link {
+        margin-top: 50px;
+    }
+
+    /* making FOOTER */
+
+    .footer .main-block {
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .footer .main-block .block-f {
+        margin-bottom: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer .main-block .block-f .contact-inf h3 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .footer .main-block .block-f .main-inf h3 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .footer .main-block .block_1 .email {
+        justify-content: center;
+        height: 10px;
+    }
+
+    .footer .main-block .block-f .email .image {
+        height: 12px;
+        width: 12px;
+    }
+
+    .footer .main-block .block-f .email p {
+        font-size: 12px;
+    }
+
+    .footer .main-block .block-f .telefone {
+        justify-content: center;
+        height: 10px;
+    }
+
+    .footer .main-block .block-f .telefone .image {
+        height: 10px;
+        width: 10px;
+    }
+
+    .footer .main-block .block-f .telefone p {
+        font-size: 12px;
+    }
+
+    .footer .main-block .block-f .adress {
+        justify-content: center;
+        height: 10px;
+    }
+
+    .footer .main-block .block-f .adress .image {
+        height: 10px;
+        width: 10px;
+    }
+
+    .footer .main-block .block-f .adress p {
+        font-size: 12px;
+    }
+
+    .footer .main-block .block-f .inf-1 {
+        justify-content: center;
+        height: 10px;
+    }   
+
+    .footer .main-block .block-f .inf-1 .arrow-1 p {
+        font-size: 10px;
+    }
+
+    .footer .main-block .block-f .inf-1 p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 465px) {
+    .services {
+        height: 1750px;
+    }
+
+    .services .block .textes .box-1 h2 {
+        font-size: 22px;
+    }
+
+    .services .block .images .boxes {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .services .block .images .boxes img {
+        display: inline-block;
+        width: 270px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services .block .images .boxes .main-text {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .services .block .images .boxes .middle-text {
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+        width: 320px;
+    }
+
+    .services .block .images .boxes a {
+        display: inline-block;
+        text-align: center;
+    }
+}
